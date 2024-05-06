@@ -1,0 +1,12 @@
+[pyprland]
+plugins = ["fetch_client_menu", "scratchpads"]
+
+[fetch_client_menu]
+menu = "wofi"
+
+[scratchpads.taskManager]
+animation = "fromTop"
+command = "kitty --hold htop"
+size = "75% 60%"
+max_size = "1920px 100%"
+margin = 50
