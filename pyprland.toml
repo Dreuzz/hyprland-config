@@ -5,8 +5,9 @@ plugins = ["fetch_client_menu", "scratchpads"]
 menu = "wofi"
 
 [scratchpads.taskManager]
+command = "missioncenter"
 animation = "fromTop"
-command = "kitty --hold htop"
-size = "75% 60%"
+size = "80% 75%"
 max_size = "1920px 100%"
-margin = 50
+margin = 40
+lazy = true
