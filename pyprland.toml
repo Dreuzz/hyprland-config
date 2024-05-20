@@ -12,5 +12,13 @@ max_size = "1920px 100%"
 margin = 40
 lazy = true
 
+[scratchpads.gpu]
+command = "lact"
+animation = "fromTop"
+size = "80% 75%"
+max_size = "1920px 100%"
+margin = 40
+lazy = true
+
  
 # TODO: - add layout_center plugin 
