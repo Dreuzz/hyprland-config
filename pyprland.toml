@@ -6,21 +6,11 @@ menu = "wofi"
 
 [scratchpads.taskManager]
 command = "missioncenter"
-animation = "fromTop"
-size = "80% 75%"
-max_size = "1920px 100%"
-margin = 40
-lazy = true
-
-[scratchpads.gpu]
-command = "lact"
-animation = "fromTop"
+animation = "fromBottom"
 size = "80% 75%"
 max_size = "1920px 100%"
 margin = 40
 lazy = true
 
 [layout_center]
-margin = 30
-offset = [0, 0]
-# TODO: - add layout_center plugin 
+margin = 40
