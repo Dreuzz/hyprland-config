@@ -1,12 +1,9 @@
 [pyprland]
 plugins = ["expose", "scratchpads", "layout_center"]
 
-[expose]
-menu = "wofi"
-
 [scratchpads.taskManager]
 command = "missioncenter"
-animation = "fromBottom"
+animation = "fromTop"
 size = "80% 75%"
 max_size = "1920px 100%"
 margin = 40
