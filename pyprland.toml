@@ -1,13 +1,14 @@
 [pyprland]
-plugins = ["expose", "scratchpads", "layout_center"]
+plugins = ["scratchpads", "layout_center"]
 
 [scratchpads.taskManager]
 command = "missioncenter"
 animation = "fromTop"
-size = "80% 75%"
-max_size = "1920px 100%"
-margin = 40
+size = "65% 60%"
+max_size = "2560px 100%"
+margin = 70
 lazy = true
 
 [layout_center]
-margin = 40
+margin = 50
+offset = [0, 25]
